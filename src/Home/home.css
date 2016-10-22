@@ -1,0 +1,19 @@
+#root {
+    height: 100%;
+}
+
+.cathay-background {
+    background-image: url('http://www.cathaypacific.com/content/dam/cx/digital-library/hk/press-release/2016/20160530/20160530_01.jpg');
+    background-size: cover;
+}
+
+.overlay {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.6); /*can be anything, of course*/
+}

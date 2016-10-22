@@ -1,7 +1,7 @@
 {
-  "name": "viewmodel-react-starter",
+  "name": "Seamless",
   "version": "1.0.0",
-  "description": "Starter project to test ViewModel for React.",
+  "description": "Cathay Pacific Hackathon 2016 HK :).",
   "scripts": {
     "start": "node server.js",
     "test": "jest",
@@ -32,17 +32,30 @@
     "babel-polyfill": "^6.13.0",
     "babel-preset-es2015": "^6.0.15",
     "babel-preset-react": "^6.0.15",
+    "css-loader": "^0.25.0",
     "enzyme": "^2.4.1",
     "jest-cli": "^16.0.0",
     "react-addons-test-utils": "^15.3.0",
     "react-hot-loader": "1.3.0",
+    "style-loader": "^0.13.1",
     "viewmodel-react-plugin": "^0.7.1",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "async": "^2.1.2",
+    "browser-request": "^0.3.3",
+    "c3": "^0.4.11",
+    "firebase": "^3.5.1",
+    "gun": "^0.3.997",
+    "materialize-css": "^0.97.7",
+    "qrcode.react": "^0.6.1",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
+    "react-router": "^2.8.1",
+    "react-router-transition": "0.0.6",
+    "reactfire": "^1.0.0",
+    "request": "^2.75.0",
     "viewmodel-react": "^0.7.1"
   },
   "jest": {
