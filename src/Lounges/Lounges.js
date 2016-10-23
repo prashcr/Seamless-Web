@@ -204,16 +204,27 @@ Lounges({
                 <span class="tile-group-title"></span>
 
                 <div class="tile-container">
+                 <div class="tile-big-x tile-wide-y bg-white fg-dark" style="padding: 16">
+                        <div class="carousel" data-role="carousel" data-auto="true" style="height: 100%">
+                            <div class="slide"><img src="http://c1038.r38.cf3.rackcdn.com/group4/building39423/media/ywao_ed1663_fp412722.jpg" alt=""/></div>
+                            <div class="slide"><img src="http://www.cathaypacific.com/content/dam/cx/digital-library/hk/press-release/archived/20100930_04.jpg" alt=""/></div>
+                            <div class="slide"><img src="https://res.cloudinary.com/loungebuddy/image/upload/w_1400,h_1400,c_limit,q_90/v1457384870/blog/wp-content-uploads-2013-12-The-Bridge-1.jpg" alt=""/></div>
+                        </div>
+                    </div>
+                    <br/>
+
                     <div class="tile-big-x bg-teal fg-white padding20">
-                    <center>
-                        The airport you're travelling to does not appear to be busy. Simply walk into our designated lounge and enjoy the free buffet and luxury shower after your flight for an extremely discounted price.
+                    <center style="font-size: 24px;">
+                        The airport you're travelling to does not appear to be busy. <br/><br/>Walk into our designated lounge and enjoy the free buffet and luxury shower after your flight for an extremely discounted price.
                         </center>
                     </div>
 
                     <div class="tile-big-x bg-darkBlue fg-white padding20">
-                        <b>Discounted Rate:</b> $300HKD
+                        <b>Discounted Rate:</b> $300HKD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button">Reserve a spot</button>
                     </div>
                 </div>
+
+
             </div>
 
             <div class="tile-group triple">
@@ -232,13 +243,7 @@ Lounges({
                 <span class="tile-group-title"></span>
 
                 <div class="tile-container">
-                    <div class="tile-big-x tile-wide-y bg-white fg-dark" style="padding: 16">
-                        <div class="carousel" data-role="carousel" data-auto="true" style="height: 100%">
-                            <div class="slide"><img src="http://c1038.r38.cf3.rackcdn.com/group4/building39423/media/ywao_ed1663_fp412722.jpg" alt=""/></div>
-                            <div class="slide"><img src="http://www.cathaypacific.com/content/dam/cx/digital-library/hk/press-release/archived/20100930_04.jpg" alt=""/></div>
-                            <div class="slide"><img src="https://res.cloudinary.com/loungebuddy/image/upload/w_1400,h_1400,c_limit,q_90/v1457384870/blog/wp-content-uploads-2013-12-The-Bridge-1.jpg" alt=""/></div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
