@@ -98,6 +98,14 @@ Timeline({
                             <span class="icon mif-cloudy"></span>
                         </div>
                         <span class="tile-label">Sleep</span>
+                        <div class="input-control select">
+                          <select>
+                              <option selected>Select..</option>
+                              <option>No sleep</option>
+                              <option>Halal</option>
+                              <option>None</option>
+                          </select>
+                        </div>
                     </a>
 
                     <div class="tile-wide bg-teal fg-white">
@@ -105,6 +113,14 @@ Timeline({
                             <span class="icon mif-shopping-basket mif-4x"></span>
                         </div>
                         <span class="tile-label">Shopping</span>
+                        <div class="input-control select">
+                          <select>
+                              <option selected>Select..</option>
+                              <option>Duty-free</option>
+                              <option>Luxury items</option>
+                              <option value="">None</option>
+                          </select>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -119,6 +135,14 @@ Timeline({
                             <span class="icon mif-my-location"></span>
                         </div>
                         <span class="tile-label">Meal #1</span>
+                        <div class="input-control select">
+                          <select>
+                              <option selected>Select..</option>
+                              <option>Vegetarian</option>
+                              <option>Halal</option>
+                              <option value="">None</option>
+                          </select>
+                        </div>
                     </a>
 
                     <div class="tile-large bg-blue fg-white">
@@ -126,6 +150,14 @@ Timeline({
                             <span class="icon mif-display"></span>
                         </div>
                         <span class="tile-label">Meal #2</span>
+                        <div class="input-control select">
+                          <select>
+                              <option selected>Select..</option>
+                              <option>Vegetarian</option>
+                              <option>Halal</option>
+                              <option value="">None</option>
+                          </select>
+                        </div>
                     </div>
                 </div>
             </div>
