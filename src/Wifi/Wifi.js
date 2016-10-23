@@ -8,7 +8,6 @@ import "../flex.css";
 
 Wifi({
     created() {
-
     },
     destroyed() {
     },
@@ -93,25 +92,75 @@ Wifi({
 
                 <div class="tile-container">
 
-                    <a href="#" class="tile-wide bg-indigo fg-white">
-                        <div class="tile-content iconic">
-                            <span class="icon mif-calendar"></span>
-                        </div>
-                        <span class="tile-label">You have been connected for:</span>
-                    </a>
-
-                    <div class="tile-wide bg-blue fg-white">
-                        <div class="tile-content iconic">
+                    <a href="#" class="tile-wide tile-big-y bg-indigo fg-white">
+                        <div class="tile-content iconic fill">
                             <span class="icon mif-wifi-full"></span>
                         </div>
-                        <span class="tile-label">Temperature: -51C</span>
-                    </div>
+                        <span class="tile-label">You are now connected.</span>
+                    </a>
+                </div>
+            </div>
 
-                    <div class="tile-wide bg-teal fg-white">
-                        <div class="tile-content iconic">
-                            <span class="icon mif-location-city mif-4x"></span>
+            <div class="tile-group double">
+                <span class="tile-group-title"></span>
+
+                <div class="tile-container">
+                    <div class="tile-big-y bg-white fg-white">
+                        <div class="listview-outlook" data-role="listview">
+                            <div class="list-group ">
+                                <span class="list-group-toggle">Today</span>
+                                <div class="list-group-content">
+                                    <a class="list" href="#">
+                                        <div class="list-content">
+                                            <span class="list-title"><span class="place-right icon-flag-2 fg-red smaller"></span>WiFi Usage</span>
+                                            <span class="list-subtitle"><span class="place-right">$15</span>Charged on 26/10/2013</span>
+                                            <span class="list-remark">Flight from HK to Taipei</span>
+                                        </div>
+                                    </a>
+                                    <a class="list" href="#">
+                                        <div class="list-content">
+                                            <span class="list-title"><span class="place-right icon-flag-2 fg-green smaller"></span>WiFi Usage</span>
+                                            <span class="list-subtitle"><span class="place-right">$15</span>Charged on 26/10/2013</span>
+                                            <span class="list-remark">Flight from Taipei to HK</span>
+                                        </div>
+                                    </a>
+                                    <a class="list" href="#">
+                                        <div class="list-content">
+                                            <span class="list-title">WiFi Usage</span>
+                                            <span class="list-subtitle"><span class="place-right">$8</span>Charged on 26/10/2013</span>
+                                            <span class="list-remark">Flight from HK to Beijing</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="list-group collapsed">
+                                <span class="list-group-toggle">Yesterday</span>
+                                <div class="list-group-content">
+                                    <a class="list" href="#">
+                                        <div class="list-content">
+                                            <span class="list-title"><span class="place-right icon-flag-2 fg-red smaller"></span>WiFi Usage</span>
+                                            <span class="list-subtitle"><span class="place-right">$15</span>Charged on 26/10/2013</span>
+                                            <span class="list-remark">Flight from HK to Taipei</span>
+                                        </div>
+                                    </a>
+                                    <a class="list" href="#">
+                                        <div class="list-content">
+                                            <span class="list-title"><span class="place-right icon-flag-2 fg-green smaller"></span>WiFi Usage</span>
+                                            <span class="list-subtitle"><span class="place-right">$15</span>Charged on 26/10/2013</span>
+                                            <span class="list-remark">Flight from Taipei to HK</span>
+                                        </div>
+                                    </a>
+                                    <a class="list" href="#">
+                                        <div class="list-content">
+                                            <span class="list-title">WiFi Usage</span>
+                                            <span class="list-subtitle"><span class="place-right">$8</span>Charged on 26/10/2013</span>
+                                            <span class="list-remark">Flight from HK to Beijing</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <span class="tile-label">Time to Destination: (2:22)</span>
                     </div>
                 </div>
             </div>
@@ -120,40 +169,22 @@ Wifi({
                 <span class="tile-group-title"></span>
 
                 <div class="tile-container">
-
-                    <a href="#" class="tile-wide bg-indigo fg-white">
-                        <div class="tile-content iconic">
-                            <span class="icon mif-calendar"></span>
+                    <div class="tile-big-y bg-white fg-dark">
+                        <div class="listview" data-role="listview" style="padding: 16">
+                            <div class="list-group">
+                                <span class="list-group-toggle">My devices</span>
+                                <div class="list-group-content">
+                                    <div class="list">
+                                        <span class="list-icon mif-laptop"></span>
+                                        <span class="list-title">KENTA-PC</span>
+                                    </div>
+                                    <div class="list">
+                                        <span className="list-icon mif-tablet"></span>
+                                        <span class="list-title">KEITA-TAB</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <span class="tile-label">Flight: CX350</span>
-                    </a>
-
-                    <div class="tile-large bg-blue fg-white">
-                        <div class="tile-content iconic">
-                            <span class="icon mif-wifi-full"></span>
-                        </div>
-                        <span class="tile-label">Seat: 13A</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tile-group double">
-                <span class="tile-group-title"></span>
-
-                <div class="tile-container">
-
-                    <a href="#" class="tile-wide bg-indigo fg-white">
-                        <div class="tile-content iconic">
-                            <span class="icon mif-calendar"></span>
-                        </div>
-                        <span class="tile-label">From: Hong Kong</span>
-                    </a>
-
-                    <div class="tile-large bg-blue fg-white">
-                        <div class="tile-content iconic">
-                            <span class="icon mif-wifi-full"></span>
-                        </div>
-                        <span class="tile-label">Destination: Taipei</span>
                     </div>
                 </div>
             </div>

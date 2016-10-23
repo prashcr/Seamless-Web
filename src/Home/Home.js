@@ -125,12 +125,12 @@ Home({
                         <span class="tile-label">Flight Info</span>
                     </Link>
 
-                    <a href="#" class="tile-wide bg-green fg-white">
+                    <Link to={'/payments'} class="tile-wide bg-green fg-white">
                         <div class="tile-content iconic">
                             <span class="icon mif-dollars"></span>
                         </div>
                         <span class="tile-label">Payments</span>
-                    </a>
+                    </Link>
 
                     <div class="tile bg-brown fg-white">
                         <div class="tile-content iconic">
