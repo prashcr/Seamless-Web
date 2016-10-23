@@ -91,12 +91,12 @@ Home({
 
                 <div class="tile-container">
 
-                    <a href="#" class="tile bg-indigo fg-white">
+                    <Link to={'/timeline'} class="tile bg-indigo fg-white">
                         <div class="tile-content iconic">
                             <span class="icon mif-calendar"></span>
                         </div>
                         <span class="tile-label">Timeline</span>
-                    </a>
+                    </Link>
 
                     <Link to={'/wifi'} class="tile bg-blue fg-white">
                         <div class="tile-content iconic">
@@ -125,12 +125,12 @@ Home({
                         <span class="tile-label">Flight Info</span>
                     </Link>
 
-                    <Link to={'/payments'} class="tile-wide bg-green fg-white">
+                    <a href="#" class="tile-wide bg-green fg-white">
                         <div class="tile-content iconic">
                             <span class="icon mif-dollars"></span>
                         </div>
                         <span class="tile-label">Payments</span>
-                    </Link>
+                    </a>
 
                     <div class="tile bg-brown fg-white">
                         <div class="tile-content iconic">
