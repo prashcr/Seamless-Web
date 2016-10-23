@@ -102,7 +102,7 @@ Timeline({
 
                     <div class="tile-wide bg-teal fg-white">
                         <div class="tile-content iconic">
-                            <span class="icon mif-space-shuttle mif-4x"></span>
+                            <span class="icon mif-shopping-basket mif-4x"></span>
                         </div>
                         <span class="tile-label">Shopping</span>
                     </div>
