@@ -9,6 +9,7 @@ import {Info} from "./Info/Info";
 import {Wifi} from "./Wifi/Wifi";
 import {Lounges} from "./Lounges/Lounges";
 import {Payments} from "./Payments/Payments"
+import {Music} from "./Music/Music";
 import firebase from "firebase";
 
 let config = {
@@ -68,6 +69,7 @@ ReactDOM.render(
             <Route path="wifi" component={Wifi} onEnter={requireAuth}/>
             <Route path="lounges" component={Lounges} onEnter={requireAuth}/>
             <Route path="payments" component={Payments} onEnter={requireAuth}/>
+            <Route path="music" component={Music} onEnter={requireAuth}/>
         </Route>
     </Router>,
     document.getElementById("root"));

@@ -148,36 +148,6 @@ Home({
                 </div>
             </div>
 
-            <div class="tile-group one">
-                <span class="tile-group-title">Work</span>
-
-                <div class="tile-small bg-blue">
-                    <div class="tile-content iconic">
-                        <img src="http://metroui.org.ua/images/outlook.png" class="icon"/>
-                    </div>
-                </div>
-                <div class="tile-small bg-darkBlue">
-                    <div class="tile-content iconic">
-                        <img src="http://metroui.org.ua/images/word.png" class="icon"/>
-                    </div>
-                </div>
-                <div class="tile-small bg-green">
-                    <div class="tile-content iconic">
-                        <img src="http://metroui.org.ua/images/excel.png" class="icon"/>
-                    </div>
-                </div>
-                <div class="tile-small bg-red">
-                    <div class="tile-content iconic">
-                        <img src="http://metroui.org.ua/images/access.png" class="icon"/>
-                    </div>
-                </div>
-                <div class="tile-small bg-orange">
-                    <div class="tile-content iconic">
-                        <img src="http://metroui.org.ua/images/powerpoint.png" class="icon"/>
-                    </div>
-                </div>
-            </div>
-
             <div class="tile-group double">
                 <span class="tile-group-title">Social</span>
 
@@ -237,12 +207,12 @@ Home({
                         <span class="tile-label">Games</span>
                     </a>
 
-                    <a href="#" class="tile bg-pink fg-white">
+                    <Link to={'/music'} class="tile bg-pink fg-white">
                         <div class="tile-content iconic">
                             <span class="icon mif-headphones"></span>
                         </div>
                         <span class="tile-label">Music</span>
-                    </a>
+                    </Link>
 
                     <div class="tile bg-darkBlue fg-white">
                         <div class="tile-content iconic">
