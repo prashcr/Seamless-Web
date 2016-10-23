@@ -8,13 +8,15 @@ MusicTrack({
   },
   rendered() {
     let self = this;
-      $(`#${self.id()}`).css({
+      setTimeout(() => {
+        $(`#${self.id()}`).css({
           opacity: 1,
           "-webkit-transform": "scale(1)",
           "transform": "scale(1)",
           "-webkit-transition": ".3s",
           "transition": ".3s"
-      });
+      })
+      }, Math.floor(Math.random() * 500));
   },
   render() {
     <div id={this.id()} class="tile bg-blue fg-white" b="click: playTrack">
